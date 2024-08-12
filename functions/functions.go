@@ -33,7 +33,7 @@ func getMultiValue(word string) (string, string) {
 	return upper, names[0]
 }
 
-func main() {
+func functions() {
 	sayName("Muyeed")
 	sayAge(23)
 	cycleNames([]string{"Muyeed", "Dipra", "Alam"}, sayName)
