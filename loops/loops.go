@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func loop() {
+func loops() {
 
 	// for loop style 1
 	x := 0
