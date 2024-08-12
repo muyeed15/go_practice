@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func slices() {
 
 	// slices without capacity
 	var slc1 = []int{10, 30, 40}
