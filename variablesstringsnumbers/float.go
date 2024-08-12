@@ -1,8 +1,8 @@
-package main
+package variablesstringsnumbers
 
 import "fmt"
 
-func float() {
+func RunFloat() {
 
 	// float
 	var float32_1 float32 = 25.98

@@ -1,11 +1,8 @@
-package main
+package variablesstringsnumbers
 
 import "fmt"
 
-// outside function variable
-var nameFive = "Shrabon"
-
-func variable() {
+func RunVar() {
 
 	// strings
 	var nameOne string = "Muyeed"

@@ -1,9 +1,8 @@
-package main
+package lopps
 
 import "fmt"
 
-func loops() {
-
+func Run() {
 	// for loop style 1
 	x := 0
 	for x < 5 {
@@ -32,5 +31,4 @@ func loops() {
 	for _, value := range names {
 		fmt.Printf("The value is %v\n", value)
 	}
-
 }

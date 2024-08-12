@@ -1,8 +1,8 @@
-package main
+package variablesstringsnumbers
 
 import "fmt"
 
-func integer() {
+func RunInt() {
 
 	// int
 	var ageOne int = 10

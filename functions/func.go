@@ -1,4 +1,4 @@
-package main
+package functions
 
 import (
 	"fmt"
@@ -33,7 +33,7 @@ func getMultiValue(word string) (string, string) {
 	return upper, names[0]
 }
 
-func functions() {
+func Run() {
 	sayName("Muyeed")
 	sayAge(23)
 	cycleNames([]string{"Muyeed", "Dipra", "Alam"}, sayName)

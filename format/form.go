@@ -1,8 +1,8 @@
-package main
+package format
 
 import "fmt"
 
-func format() {
+func Run() {
 	var name = "Muyeed"
 	var age = 23
 
@@ -21,5 +21,4 @@ func format() {
 	// sprintf
 	var str = fmt.Sprintf("My name is %v and I'm %v years old.", name, age)
 	fmt.Println("\nSaved String: ", str)
-
 }

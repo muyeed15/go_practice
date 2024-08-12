@@ -1,8 +1,8 @@
-package main
+package helloworld
 
 import "fmt"
 
-func first() {
+func Run() {
 
 	fmt.Println("Hello World")
 

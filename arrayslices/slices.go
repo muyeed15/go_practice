@@ -1,8 +1,8 @@
-package main
+package arrayslices
 
 import "fmt"
 
-func slices() {
+func RunSlices() {
 
 	// slices without capacity
 	var slc1 = []int{10, 30, 40}

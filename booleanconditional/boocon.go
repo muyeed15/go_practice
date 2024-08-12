@@ -1,8 +1,8 @@
-package main
+package booleanconditional
 
 import "fmt"
 
-func boocon() {
+func Run() {
 	age := 45
 
 	// direct bool

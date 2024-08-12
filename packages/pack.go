@@ -1,4 +1,4 @@
-package main
+package packages
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func packages() {
+func Run() {
 	
 	greeting := "Hello world!"
 
