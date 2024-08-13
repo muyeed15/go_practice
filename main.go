@@ -11,6 +11,7 @@ import (
 	"go_practice/packages"
 	"go_practice/pointers"
 	"go_practice/scopes"
+	"go_practice/structs"
 	"go_practice/variablesstringsnumbers"
 )
 
@@ -29,4 +30,5 @@ func main() {
 	variablesstringsnumbers.RunVar()
 	maps.Run()
 	pointers.Run()
+	structs.Run()
 }
