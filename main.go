@@ -1,13 +1,15 @@
 package main
 
 import (
-	"go_practice/format"
-	"go_practice/booleanconditional"
 	"go_practice/arrayslices"
+	"go_practice/booleanconditional"
+	"go_practice/format"
 	"go_practice/functions"
 	"go_practice/helloworld"
-	"go_practice/loops"
+	lopps "go_practice/loops"
+	"go_practice/maps"
 	"go_practice/packages"
+	"go_practice/pointers"
 	"go_practice/scopes"
 	"go_practice/variablesstringsnumbers"
 )
@@ -25,4 +27,6 @@ func main() {
 	variablesstringsnumbers.RunFloat()
 	variablesstringsnumbers.RunInt()
 	variablesstringsnumbers.RunVar()
+	maps.Run()
+	pointers.Run()
 }
